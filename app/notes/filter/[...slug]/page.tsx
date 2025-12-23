@@ -2,19 +2,17 @@ import { dehydrate, HydrationBoundary, QueryClient } from "@tanstack/react-query
 
 import { fetchNotes } from "@/lib/api";
 import type { Tag } from "@/types/note";
-
 import NotesClient from "./Notes.client";
 
 type Props = {
-  params: { slug?: string[] };
+  params: Promise<{ slug: string[] }>;
 };
 
 export default async function NotesPage({ params }: Props) {
-  const slugArray = Array.isArray(params.slug) && params.slug.length
-    ? params.slug
-    : ["all"];
+  const { slug } = await params;
 
-  // slug[0] - category/tag; "all" означає без фільтра
+  const slugArray = Array.isArray(slug) && slug.length ? slug : ["all"];
+
   const category: Tag | "" = slugArray[0] === "all" ? "" : (slugArray[0] as Tag);
 
   const queryClient = new QueryClient();
@@ -26,7 +24,6 @@ export default async function NotesPage({ params }: Props) {
         page: 1,
         perPage: 12,
         tag: category || undefined,
-        search: undefined,
       }),
   });
 
