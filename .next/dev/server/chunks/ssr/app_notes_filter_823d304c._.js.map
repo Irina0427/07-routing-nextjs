@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/notes/filter/LayoutNotes.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"content\": \"LayoutNotes-module__Eh5KMq__content\",\n  \"layout\": \"LayoutNotes-module__Eh5KMq__layout\",\n  \"sidebar\": \"LayoutNotes-module__Eh5KMq__sidebar\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Irina/projects/07-routing-nextjs-main/app/notes/filter/layout.tsx"],"sourcesContent":["import css from \"./LayoutNotes.module.css\";\n\nexport default function Layout({\n  children,\n  sidebar,\n}: {\n  children: React.ReactNode;\n  sidebar: React.ReactNode;\n}) {\n  return (\n    <section className={css.layout}>\n      <aside className={css.sidebar}>{sidebar}</aside>\n      <div className={css.content}>{children}</div>\n    </section>\n  );\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS,OAAO,EAC7B,QAAQ,EACR,OAAO,EAIR;IACC,qBACE,8OAAC;QAAQ,WAAW,4JAAG,CAAC,MAAM;;0BAC5B,8OAAC;gBAAM,WAAW,4JAAG,CAAC,OAAO;0BAAG;;;;;;0BAChC,8OAAC;gBAAI,WAAW,4JAAG,CAAC,OAAO;0BAAG;;;;;;;;;;;;AAGpC"}}]
+}

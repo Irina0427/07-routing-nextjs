@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Irina/projects/07-routing-nextjs-main/components/TanStackProvider/TanStackProvider.tsx"],"sourcesContent":["\"use client\";\n\nimport type { ReactNode } from \"react\";\nimport { useState } from \"react\";\nimport {\n  HydrationBoundary,\n  QueryClient,\n  QueryClientProvider,\n  type DehydratedState,\n} from \"@tanstack/react-query\";\n\ntype Props = {\n  children: ReactNode;\n  dehydratedState?: DehydratedState;\n};\n\nexport default function TanStackProvider({ children, dehydratedState }: Props) {\n  const [queryClient] = useState(() => new QueryClient());\n\n  return (\n    <QueryClientProvider client={queryClient}>\n      <HydrationBoundary state={dehydratedState}>{children}</HydrationBoundary>\n    </QueryClientProvider>\n  );\n}\n"],"names":[],"mappings":";;;;;AAGA;AACA;AAAA;AAAA;AAJA;;;;AAgBe,SAAS,iBAAiB,EAAE,QAAQ,EAAE,eAAe,EAAS;IAC3E,MAAM,CAAC,YAAY,GAAG,IAAA,iNAAQ,EAAC,IAAM,IAAI,4LAAW;IAEpD,qBACE,8OAAC,6MAAmB;QAAC,QAAQ;kBAC3B,cAAA,8OAAC,yMAAiB;YAAC,OAAO;sBAAkB;;;;;;;;;;;AAGlD"}}]
+}

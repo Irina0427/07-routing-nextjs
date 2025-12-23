@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Irina/projects/07-routing-nextjs-main/app/notes/filter/LayoutNotes.module.css"],"sourcesContent":[".layout {\n    display: flex;\n    min-height: 100%;\n\n}\n\n.sidebar {\n    width: 250px;\n    background-color: #2c2c2c;\n    color: white;\n    padding: 16px;\n    display: flex;\n    flex-direction: column;\n    border-right: 1px solid #ddd;\n}\n\n.content {\n    flex: 1;\n    min-width: 0;\n\n    padding: 16px;\n}"],"names":[],"mappings":"AAAA;;;;;AAMA;;;;;;;;;;AAUA"}}]
+}
