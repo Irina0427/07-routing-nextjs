@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["C:/Users/Irina/projects/07-routing-nextjs-main/app/notes/filter/[...slug]/error.tsx"],"sourcesContent":["\"use client\";\nexport default function Error({ error }: { error: Error }) {\n  return <p>Could not fetch note details. {error.message}</p>;\n}"],"names":["c","_c","Error","t0","$","$i","Symbol","for","error","t1","message"],"mappings":";;;;;AAAa,SAAAA,CAAA,IAAAC,EAAA;AAAb,YAAY;;;AACG,eAAAE,EAAA;IAAA,MAAAC,CAAA,OAAAH,gLAAA,EAAA;IAAA,IAAAG,CAAA,CAAA,EAAA,KAAA,oEAAA;QAAA,IAAA,IAAAC,EAAA,GAAA,GAAAA,EAAA,GAAA,GAAAA,EAAA,IAAA,EAAA;YAAAD,CAAA,CAAAC,EAAA,CAAA,GAAAC,MAAA,CAAAC,GAAA,CAAA;QAAA;QAAAH,CAAA,CAAA,EAAA,GAAA;IAAA;IAAe,MAAA,EAAAI,KAAAA,EAAA,GAAAL,EAA2B;IAAA,IAAAM,EAAA;IAAA,IAAAL,CAAA,CAAA,EAAA,KAAAI,KAAA,CAAAE,OAAA,EAAA;QAChDD,EAAA,iBAAA,6LAAA,CAAoD;;gBAAjD,8BAA+B;gBAAAD,KAAK,CAAAE,OAAO,CAAE,EAAhD,CAAoD;;;;;;;QAAAN,CAAA,CAAA,EAAA,GAAAI,KAAA,CAAAE,OAAA;QAAAN,CAAA,CAAA,EAAA,GAAAK,EAAA;IAAA,OAAA;QAAAA,EAAA,GAAAL,CAAA,CAAA,EAAA;IAAA;IAAA,OAApDK,EAAoD;AAAA;KAD9CP","ignoreList":[]}}]
-}

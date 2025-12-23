@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/Irina/projects/07-routing-nextjs-main/app/notes/filter/%40sidebar/SidebarNotes.module.css"],"sourcesContent":[".menuList {\n    list-style-type: none;\n    margin: 0;\n    padding: 0;\n}\n\n.menuItem {\n    margin-bottom: 16px;\n}\n\n.menuLink {\n    text-decoration: none;\n    color: white;\n    font-size: 16px;\n    display: block;\n    padding: 8px 16px;\n    transition: background-color 0.3s ease;\n}\n\n.menuLink:hover {\n    background-color: #444;\n    color: #ddd;\n}"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;AAIA;;;;;;;;;AASA"}}]
-}
