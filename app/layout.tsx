@@ -26,9 +26,11 @@ export default function RootLayout({ children, modal }: RootLayoutProps) {
       <main className="content">
         {children}
         {modal ?? null}
-      </main>
+          </main>
+          <div id="modal-root" />
       <Footer />
-    </TanStackProvider>
+        </TanStackProvider>
+        
   </body>
 </html>
   );
